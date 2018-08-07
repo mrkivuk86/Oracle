@@ -107,7 +107,7 @@ firewalld ili iptables podesavanjima, kako bi zabranili bas javni pristup.
 Ako ima vise portova koje treba otvoriti javno, razdvojte iz razmakom (space-om)
 --------------------------------------------------------------------------------
 OTVORENI_PORTOVI [1521] :" OTVORENI_PORTOVI
-set_default_value OTVORENI_PORTOVI "1521 5500" ${OTVORENI_PORTOVI}
+set_default_value OTVORENI_PORTOVI "1521" ${OTVORENI_PORTOVI}
 
 read -p "
 --------------------------------------------------------------------------------
