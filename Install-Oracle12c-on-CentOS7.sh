@@ -104,8 +104,9 @@ read -p "
 Portovi koji ce biti otvoreni za javnost. Paznja, portovi se dodaju na public 
 tako da ako ce vam server biti na nekoj javnoj mrezi moracete da se poigrate sa 
 firewalld ili iptables podesavanjima, kako bi zabranili bas javni pristup.
+Ako ima vise portova koje treba otvoriti javno, razdvojte iz razmakom (space-om)
 --------------------------------------------------------------------------------
-OTVORENI_PORTOVI [1521 5500] :" OTVORENI_PORTOVI
+OTVORENI_PORTOVI [1521] :" OTVORENI_PORTOVI
 set_default_value OTVORENI_PORTOVI "1521 5500" ${OTVORENI_PORTOVI}
 
 read -p "
